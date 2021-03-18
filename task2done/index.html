@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            pad: 0;
+        }
+        body{
+            width: 100%;
+        }
+        nav{
+            width: 100%;
+            padding: 10px;
+            color: beige;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            background: linear-gradient(to right, #43c6ac, #191654)
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 10px;
+        }
+        nav button{
+            float: right;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: lightblue;
+            border-style: none;
+        }
+
+        .title{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .title h2{
+            font-size: smaller;
+            color: rgb(112, 112, 112);
+        }
+        h3{
+            font-size: x-large;
+            margin: 10px;
+        }
+        .content-container{
+            display: flex;
+            justify-content: center;;
+        }
+        .content{
+            text-align: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: rgb(240, 236, 236);
+            padding: 50px;
+        }
+        img{
+            width: 100px;
+        }
+        .content h2{
+            font-size: smaller;
+            color: darkcyan;
+            margin-bottom: 50px;
+        }
+        .content p{
+            color: darkgray;
+        }
+        .content h3{
+            color: darkcyan;
+        }
+        span{
+            font-size: x-small;
+        }
+        .content button{
+            border-radius: 20px;
+            padding: 10px;
+            color: darkcyan;
+            border-color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1></h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Features</li>
+            <li>Gallery</li>
+            <li>Pricing</li>
+            <li>FAQ</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+        <button>SIGN UP</button>
+    </nav>
+
+    <div class="title">
+        <h2>PRICING PLAN</h2>
+        <h3>Our Awesome Pricing Plan</h3>
+    </div>
+    <div class="content-container">
+        <div class="content">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/726/726459.svg?token=exp=1616054389~hmac=568831e1c77ab6b565a0510a2f6041af" alt="LOGO">
+            <h2>FREE</h2>
+                <p>Easy Installation</p>
+                <p>Unlimited Support</p>
+                <p>Unique Elements</p>
+            <h3><sup>$</sup>0 <span>/Month</span></h3>
+            <button>PURCHASE</button>
+        </div>
+        <div class="content">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/1144/1144441.svg?token=exp=1616054527~hmac=29b7a1d1b40bf83798c512912cdce11d" alt="LOGO">
+            <h2>MEDIUM</h2>
+                <p>Easy Installation</p>
+                <p>Unlimited Support</p>
+                <p>Unique Elements</p>
+            <h3><sup>$</sup>0 <span>/Month</span></h3>
+            <button>PURCHASE</button>
+        </div>
+        <div class="content">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/893/893220.svg?token=exp=1616054591~hmac=4fcb5e43450a6f77096d507233826275" alt="LOGO">
+            <h2>BUSINESS</h2>
+                <p>Easy Installation</p>
+                <p>Unlimited Support</p>
+                <p>Unique Elements</p>
+            <h3><sup>$</sup>0 <span>/Month</span></h3>
+            <button>PURCHASE</button>
+        </div>
+    </div>
+</body>
+</html>
